@@ -1,0 +1,56 @@
+/* Global Reset and Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: royalblue; /* Changed to royal blue */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* Specific styles for blog-list and borders */
+.blog-list div {
+  border: 2px solid royalblue; /* Changed border color to royal blue */
+  border-radius: 5px;
+  padding: 15px; /* Maintain padding for content */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-list div {
+    padding: 10px;
+  }
+}

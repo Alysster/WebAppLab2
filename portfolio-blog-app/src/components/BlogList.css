@@ -1,0 +1,44 @@
+/* Blog List Container Styling */
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;  /* Optional: Restrict width for better readability */
+  margin: auto;      /* Center the blog list on the page */
+  padding: 20px 0;   /* Add padding around the list */
+}
+
+/* Blog Card Styling */
+.blog-list div {
+  padding: 20px;  /* Slightly larger padding for more space */
+  border-radius: 8px;  /* More rounded corners for a modern look */
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Stronger shadow for better depth */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;  /* Smooth hover effect */
+}
+
+.blog-list div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);  /* Enhanced shadow on hover */
+}
+
+/* Blog Title Styling */
+.blog-list h2 {
+  font-size: 1.6em;  /* Larger font size for emphasis */
+  color: #2a3d8e;  /* Royal blue color for title consistency */
+  margin-bottom: 8px;  /* Spacing below the title */
+  font-weight: bold;   /* Bold font weight for visibility */
+}
+
+/* Read More Link Styling */
+.blog-list a {
+  font-size: 1em;        /* Slightly larger font for readability */
+  color: #2a3d8e;        /* Consistent royal blue theme */
+  font-weight: 500;      /* Slightly bolder for visibility */
+  transition: color 0.3s ease, text-decoration 0.3s ease;  /* Smooth color change */
+}
+
+.blog-list a:hover {
+  color: #1c2a6d;        /* Darker blue on hover */
+  text-decoration: underline;  /* Underline on hover for emphasis */
+}

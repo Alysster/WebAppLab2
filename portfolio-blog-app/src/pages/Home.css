@@ -1,0 +1,36 @@
+/* Home Container Styling */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* Center horizontally */
+  justify-content: flex-start;   /* Center vertically */
+  height: 100vh;             /* Full height of the viewport */
+  text-align: center;        /* Center-align the text */
+  background-color: #f3f4f6; /* Slightly lighter background color for a clean look */
+  padding: 0 20px;           /* Small padding for mobile responsiveness */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Welcome Title Styling */
+.welcome-title {
+  font-size: 3.5em;               /* Larger font for more emphasis */
+  color: #2a3d8e;                 /* Richer shade of royal blue */
+  margin-bottom: 0.5em;           /* Spacing below the title */
+  text-transform: uppercase;      /* Uppercase text for impact */
+  font-weight: 700;               /* Bolder weight for stronger visual hierarchy */
+  letter-spacing: 2px;            /* Increased letter spacing for elegance */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Subtle text shadow for depth */
+}
+
+/* Welcome Text Styling */
+.welcome-text {
+  font-size: 1.3em;               /* Large but slightly smaller than title */
+  color: #666;                    /* Softer color for readability */
+  max-width: 700px;               /* Increased max-width for better readability */
+  line-height: 1.6;               /* Improve readability with balanced spacing */
+  margin-top: 1em;                /* Space above for separation */
+  padding: 0 10px;                /* Padding for responsive text */
+  background-color: rgba(255, 255, 255, 0.9); /* Subtle white background */
+  border-radius: 8px;             /* Rounded corners for a modern look */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for emphasis */
+}

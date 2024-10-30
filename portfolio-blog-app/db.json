@@ -1,0 +1,30 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "First Blog Post",
+      "content": "This is my first blog post.",
+      "date": "2023-01-01"
+    },
+    {
+      "id": 2,
+      "title": "Nice!",
+      "content": "My website gained 100 likes!",
+      "date": "2023-01-12"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Portfolio Project 1 - Band Website",
+      "description": "Website for band called Big Time Rush.",
+      "image": "BTR.png"
+    },
+    {
+      "id": 2,
+      "title": "Portfolio Project 2 - Competition Success",
+      "description": "Website gained 100 likes in a competition!",
+      "image": "100.png"
+    }
+  ]
+}
